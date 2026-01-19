@@ -14,7 +14,7 @@ function Login() {
   const handleSubmit = async e => {
     e.preventDefault();
     await axios.post("http://localhost:5000/login", form);
-    alert("Login info are sent to backend");
+    alert("login successfully sent to backend succsessfully");
   };
 
   return (
